@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E058771C266FF2AE00892F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E058771B266FF2AE00892F91 /* AppDelegate.swift */; };
+		E058771E266FF2AE00892F91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E058771D266FF2AE00892F91 /* SceneDelegate.swift */; };
+		E0587720266FF2AE00892F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E058771F266FF2AE00892F91 /* ViewController.swift */; };
+		E0587723266FF2AE00892F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0587721266FF2AE00892F91 /* Main.storyboard */; };
+		E0587725266FF2AF00892F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0587724266FF2AF00892F91 /* Assets.xcassets */; };
+		E0587728266FF2AF00892F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0587726266FF2AF00892F91 /* LaunchScreen.storyboard */; };
+		E0587733266FF2B000892F91 /* MiaQuizABC_V4_ImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0587732266FF2B000892F91 /* MiaQuizABC_V4_ImagesTests.swift */; };
+		E058773E266FF2B000892F91 /* MiaQuizABC_V4_ImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E058773D266FF2B000892F91 /* MiaQuizABC_V4_ImagesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E058772F266FF2B000892F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0587710266FF2AE00892F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0587717266FF2AE00892F91;
+			remoteInfo = "MiaQuizABC V4 Images";
+		};
+		E058773A266FF2B000892F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0587710266FF2AE00892F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0587717266FF2AE00892F91;
+			remoteInfo = "MiaQuizABC V4 Images";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0587718266FF2AE00892F91 /* MiaQuizABC V4 Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiaQuizABC V4 Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E058771B266FF2AE00892F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E058771D266FF2AE00892F91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E058771F266FF2AE00892F91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0587722266FF2AE00892F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0587724266FF2AF00892F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0587727266FF2AF00892F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0587729266FF2AF00892F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E058772E266FF2B000892F91 /* MiaQuizABC V4 ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MiaQuizABC V4 ImagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0587732266FF2B000892F91 /* MiaQuizABC_V4_ImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiaQuizABC_V4_ImagesTests.swift; sourceTree = "<group>"; };
+		E0587734266FF2B000892F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0587739266FF2B000892F91 /* MiaQuizABC V4 ImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MiaQuizABC V4 ImagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E058773D266FF2B000892F91 /* MiaQuizABC_V4_ImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiaQuizABC_V4_ImagesUITests.swift; sourceTree = "<group>"; };
+		E058773F266FF2B000892F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0587715266FF2AE00892F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E058772B266FF2B000892F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0587736266FF2B000892F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E058770F266FF2AE00892F91 = {
+			isa = PBXGroup;
+			children = (
+				E058771A266FF2AE00892F91 /* MiaQuizABC V4 Images */,
+				E0587731266FF2B000892F91 /* MiaQuizABC V4 ImagesTests */,
+				E058773C266FF2B000892F91 /* MiaQuizABC V4 ImagesUITests */,
+				E0587719266FF2AE00892F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0587719266FF2AE00892F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0587718266FF2AE00892F91 /* MiaQuizABC V4 Images.app */,
+				E058772E266FF2B000892F91 /* MiaQuizABC V4 ImagesTests.xctest */,
+				E0587739266FF2B000892F91 /* MiaQuizABC V4 ImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E058771A266FF2AE00892F91 /* MiaQuizABC V4 Images */ = {
+			isa = PBXGroup;
+			children = (
+				E058771B266FF2AE00892F91 /* AppDelegate.swift */,
+				E058771D266FF2AE00892F91 /* SceneDelegate.swift */,
+				E058771F266FF2AE00892F91 /* ViewController.swift */,
+				E0587721266FF2AE00892F91 /* Main.storyboard */,
+				E0587724266FF2AF00892F91 /* Assets.xcassets */,
+				E0587726266FF2AF00892F91 /* LaunchScreen.storyboard */,
+				E0587729266FF2AF00892F91 /* Info.plist */,
+			);
+			path = "MiaQuizABC V4 Images";
+			sourceTree = "<group>";
+		};
+		E0587731266FF2B000892F91 /* MiaQuizABC V4 ImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0587732266FF2B000892F91 /* MiaQuizABC_V4_ImagesTests.swift */,
+				E0587734266FF2B000892F91 /* Info.plist */,
+			);
+			path = "MiaQuizABC V4 ImagesTests";
+			sourceTree = "<group>";
+		};
+		E058773C266FF2B000892F91 /* MiaQuizABC V4 ImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E058773D266FF2B000892F91 /* MiaQuizABC_V4_ImagesUITests.swift */,
+				E058773F266FF2B000892F91 /* Info.plist */,
+			);
+			path = "MiaQuizABC V4 ImagesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0587717266FF2AE00892F91 /* MiaQuizABC V4 Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0587742266FF2B000892F91 /* Build configuration list for PBXNativeTarget "MiaQuizABC V4 Images" */;
+			buildPhases = (
+				E0587714266FF2AE00892F91 /* Sources */,
+				E0587715266FF2AE00892F91 /* Frameworks */,
+				E0587716266FF2AE00892F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MiaQuizABC V4 Images";
+			productName = "MiaQuizABC V4 Images";
+			productReference = E0587718266FF2AE00892F91 /* MiaQuizABC V4 Images.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E058772D266FF2B000892F91 /* MiaQuizABC V4 ImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0587745266FF2B000892F91 /* Build configuration list for PBXNativeTarget "MiaQuizABC V4 ImagesTests" */;
+			buildPhases = (
+				E058772A266FF2B000892F91 /* Sources */,
+				E058772B266FF2B000892F91 /* Frameworks */,
+				E058772C266FF2B000892F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0587730266FF2B000892F91 /* PBXTargetDependency */,
+			);
+			name = "MiaQuizABC V4 ImagesTests";
+			productName = "MiaQuizABC V4 ImagesTests";
+			productReference = E058772E266FF2B000892F91 /* MiaQuizABC V4 ImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0587738266FF2B000892F91 /* MiaQuizABC V4 ImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0587748266FF2B000892F91 /* Build configuration list for PBXNativeTarget "MiaQuizABC V4 ImagesUITests" */;
+			buildPhases = (
+				E0587735266FF2B000892F91 /* Sources */,
+				E0587736266FF2B000892F91 /* Frameworks */,
+				E0587737266FF2B000892F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E058773B266FF2B000892F91 /* PBXTargetDependency */,
+			);
+			name = "MiaQuizABC V4 ImagesUITests";
+			productName = "MiaQuizABC V4 ImagesUITests";
+			productReference = E0587739266FF2B000892F91 /* MiaQuizABC V4 ImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0587710266FF2AE00892F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E0587717266FF2AE00892F91 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E058772D266FF2B000892F91 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E0587717266FF2AE00892F91;
+					};
+					E0587738266FF2B000892F91 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E0587717266FF2AE00892F91;
+					};
+				};
+			};
+			buildConfigurationList = E0587713266FF2AE00892F91 /* Build configuration list for PBXProject "MiaQuizABC V4 Images" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E058770F266FF2AE00892F91;
+			productRefGroup = E0587719266FF2AE00892F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0587717266FF2AE00892F91 /* MiaQuizABC V4 Images */,
+				E058772D266FF2B000892F91 /* MiaQuizABC V4 ImagesTests */,
+				E0587738266FF2B000892F91 /* MiaQuizABC V4 ImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0587716266FF2AE00892F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0587728266FF2AF00892F91 /* LaunchScreen.storyboard in Resources */,
+				E0587725266FF2AF00892F91 /* Assets.xcassets in Resources */,
+				E0587723266FF2AE00892F91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E058772C266FF2B000892F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0587737266FF2B000892F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0587714266FF2AE00892F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0587720266FF2AE00892F91 /* ViewController.swift in Sources */,
+				E058771C266FF2AE00892F91 /* AppDelegate.swift in Sources */,
+				E058771E266FF2AE00892F91 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E058772A266FF2B000892F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0587733266FF2B000892F91 /* MiaQuizABC_V4_ImagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0587735266FF2B000892F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E058773E266FF2B000892F91 /* MiaQuizABC_V4_ImagesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0587730266FF2B000892F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0587717266FF2AE00892F91 /* MiaQuizABC V4 Images */;
+			targetProxy = E058772F266FF2B000892F91 /* PBXContainerItemProxy */;
+		};
+		E058773B266FF2B000892F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0587717266FF2AE00892F91 /* MiaQuizABC V4 Images */;
+			targetProxy = E058773A266FF2B000892F91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0587721266FF2AE00892F91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0587722266FF2AE00892F91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0587726266FF2AF00892F91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0587727266FF2AF00892F91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0587740266FF2B000892F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0587741266FF2B000892F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0587743266FF2B000892F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = "MiaQuizABC V4 Images/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoeyRubin.MiaQuizABC-V4-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0587744266FF2B000892F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = "MiaQuizABC V4 Images/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoeyRubin.MiaQuizABC-V4-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0587746266FF2B000892F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = "MiaQuizABC V4 ImagesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoeyRubin.MiaQuizABC-V4-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiaQuizABC V4 Images.app/MiaQuizABC V4 Images";
+			};
+			name = Debug;
+		};
+		E0587747266FF2B000892F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = "MiaQuizABC V4 ImagesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoeyRubin.MiaQuizABC-V4-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiaQuizABC V4 Images.app/MiaQuizABC V4 Images";
+			};
+			name = Release;
+		};
+		E0587749266FF2B000892F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = "MiaQuizABC V4 ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoeyRubin.MiaQuizABC-V4-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MiaQuizABC V4 Images";
+			};
+			name = Debug;
+		};
+		E058774A266FF2B000892F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDDDA27M89;
+				INFOPLIST_FILE = "MiaQuizABC V4 ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JoeyRubin.MiaQuizABC-V4-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MiaQuizABC V4 Images";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0587713266FF2AE00892F91 /* Build configuration list for PBXProject "MiaQuizABC V4 Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0587740266FF2B000892F91 /* Debug */,
+				E0587741266FF2B000892F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0587742266FF2B000892F91 /* Build configuration list for PBXNativeTarget "MiaQuizABC V4 Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0587743266FF2B000892F91 /* Debug */,
+				E0587744266FF2B000892F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0587745266FF2B000892F91 /* Build configuration list for PBXNativeTarget "MiaQuizABC V4 ImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0587746266FF2B000892F91 /* Debug */,
+				E0587747266FF2B000892F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0587748266FF2B000892F91 /* Build configuration list for PBXNativeTarget "MiaQuizABC V4 ImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0587749266FF2B000892F91 /* Debug */,
+				E058774A266FF2B000892F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0587710266FF2AE00892F91 /* Project object */;
+}
