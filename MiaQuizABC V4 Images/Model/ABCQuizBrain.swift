@@ -32,10 +32,12 @@ struct ABCQuizBrain {
         let image = quiz[quizNumber].image1
         return names[image]
     }
+    
     func getMainImage2() -> String {
         let image = quiz[quizNumber].image2
         return names[image]
     }
+    
     func getMainImage3() -> String {
         let image = quiz[quizNumber].image3
         return names[image]
@@ -45,10 +47,12 @@ struct ABCQuizBrain {
         let audio = quiz[quizNumber].audio1
         return names[audio]
     }
+    
     func getMainAudio2() -> String {
         let audio = quiz[quizNumber].audio2
         return names[audio]
     }
+    
     func getMainAudio3() -> String {
         let audio = quiz[quizNumber].audio3
         return names[audio]
@@ -57,12 +61,15 @@ struct ABCQuizBrain {
     func getTopButtonImage() -> String {
         return quiz[quizNumber].topButtonImage
     }
+    
     func getBottomButtonImage() -> String {
         return quiz[quizNumber].bottomButtonImage
     }
+    
 //    func getCorrectA () -> String {
 //        return quiz[quizNumber].correct
 //    }
+    
     func getProgress() -> Float {
         let progress =  Float (quizNumber + 1) / Float (quiz.count)
         return progress
@@ -76,6 +83,7 @@ struct ABCQuizBrain {
             score = 0
         }
     }
+    
     mutating func checkAnswer(_ userAnswer: String) -> Bool{
         if userAnswer == quiz[quizNumber].correct {
             score += 1

@@ -130,6 +130,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E028800528E2B5E9004D70DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E06DFB5D2670821B00E012CE /* ABCQuiz.swift */,
+				E06DFB5F267084B300E012CE /* ABCQuizBrain.swift */,
+				E06DFB6126708E1900E012CE /* constant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E028800628E2B5F9004D70DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E058771F266FF2AE00892F91 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E028800728E2B628004D70DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0587721266FF2AE00892F91 /* Main.storyboard */,
+				E0587726266FF2AF00892F91 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E058770F266FF2AE00892F91 = {
 			isa = PBXGroup;
 			children = (
@@ -155,13 +182,10 @@
 			children = (
 				E058771B266FF2AE00892F91 /* AppDelegate.swift */,
 				E058771D266FF2AE00892F91 /* SceneDelegate.swift */,
-				E058771F266FF2AE00892F91 /* ViewController.swift */,
-				E06DFB5D2670821B00E012CE /* ABCQuiz.swift */,
-				E06DFB5F267084B300E012CE /* ABCQuizBrain.swift */,
-				E06DFB6126708E1900E012CE /* constant.swift */,
-				E0587721266FF2AE00892F91 /* Main.storyboard */,
+				E028800628E2B5F9004D70DC /* Controller */,
+				E028800528E2B5E9004D70DC /* Model */,
+				E028800728E2B628004D70DC /* View */,
 				E0587724266FF2AF00892F91 /* Assets.xcassets */,
-				E0587726266FF2AF00892F91 /* LaunchScreen.storyboard */,
 				E0587729266FF2AF00892F91 /* Info.plist */,
 				E05877562670013200892F91 /* MiaQuizABCImages */,
 				E058774D266FF6BF00892F91 /* Sounds */,

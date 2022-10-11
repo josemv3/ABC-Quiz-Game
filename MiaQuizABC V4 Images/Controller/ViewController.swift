@@ -39,7 +39,6 @@ class ViewController: UIViewController {
 //        mainImage.layer.borderColor = UIColor(red: 0.761, green: 0.690, blue: 0.573, alpha: 1.0).cgColor
 
         mainImageButton.layer.cornerRadius = 85
-        
         updateUI()
     }
     
@@ -68,10 +67,7 @@ class ViewController: UIViewController {
         }
         print(abcQuizBrain.currentImage)
         print(image)
-        
     }
-    
-    
     
     @IBAction func answerButtonPressed(_ sender: UIButton) {
         
@@ -90,7 +86,6 @@ class ViewController: UIViewController {
             let systemSoundID: SystemSoundID = 1006
             AudioServicesPlaySystemSound (systemSoundID)
         }
-        
         
         Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(updateUI), userInfo: nil, repeats: false)
         
@@ -114,56 +109,6 @@ class ViewController: UIViewController {
         audioPlayer!.play()
         
     }
-
 }
 
 
-
-
-
-
-
-//MARK: - Older code before Struct
-
-
-//    let names = [
-//        "apple","ant","airplane",
-//        "bat","ball","book",
-//        "cat", "car", "candy",
-//        "dog", "diaper", "drum"
-//    ]
-//
-//    let letters = [
-//        "a", "b", "c", "d"
-//    ]
-
-//var image = UIImage(named:"letterA")?.withRenderingMode(.alwaysOriginal)
-
-//func nextQuizName()  {
-//    if currentImage + 3 < names.count {
-//        currentImage += 3
-//
-//    } else {
-//        currentImage = 0
-//
-//    }
-//}
-//
-//func nextQuizLetter()  {
-//    if currentLetter + 1 < letters.count {
-//        currentLetter += 1
-//
-//    } else {
-//        currentLetter = 0
-//
-//    }
-//}
-//
-//
-//}
-
-//bottomButton.setImage(UIImage(named: letters[current2Letter])?.withRenderingMode(.alwaysOriginal), for: .normal)
-//bottomButton.setTitle(letters[current2Letter], for: .normal)
-//
-//mainImageButton.setImage(UIImage(named: names[currentImage])?.withRenderingMode(.alwaysOriginal), for: .normal)
-//}

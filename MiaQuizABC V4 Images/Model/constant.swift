@@ -30,8 +30,4 @@ struct K {
     static let topButton4 = topButton3
     static let bottomButton4 = bottomButton3
     static let Correct4 = bottomButton4
-    
-    
-
-
 }

@@ -7,15 +7,6 @@
 
 import Foundation
 
-//struct ABCQuiz {
-//    let image: String
-//    let sound: String
-//    let topButton: String
-//    let bottomButton: String
-//    let answer: String
-//}
-
-
 struct ABCQuiz { //call this question
     let image1: Int
     let image2: Int
